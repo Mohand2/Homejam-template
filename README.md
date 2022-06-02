@@ -1,5 +1,9 @@
 # Homejam-template
-Homejam Template - HTML, CSS | Not Responsive
+Homejam Template - HTML, CSS | Not Responsive. <br /><br />
+Preview :
+<br /><br />
+![Homejam Template - HTML, CSS | Not Responsive](https://github.com/Mohand2/Homejam-template/blob/main/screenshot/template-screenshot.gif)
+
 
 This template contains 4 sections:
 
