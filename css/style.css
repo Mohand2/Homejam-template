@@ -140,6 +140,7 @@ a {
 
 #shows {
   height: 550px;
+  overflow: auto;
 }
 
 #shows .container h2 {
@@ -214,6 +215,7 @@ a {
 
 #reviews {
   height: 400px;
+  overflow: auto;
 }
 
 #reviews .container h2 {
@@ -270,14 +272,39 @@ a {
 #reviews .container .review-box p {
   font-weight: 200;
   font-size: 17px;
+  color: rgb(226, 226, 226);
 }
 
 /* section-3 | END */
 
 /* footer | START */
-#footer{
-background-color: #0f1129;
-text-align: center;
-padding: 20px;
+#footer {
+  background-color: #0f1129;
+  text-align: center;
+  padding: 20px;
 }
 /* footer | END */
+
+/* go-top | START */
+
+.go-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #0f1129;
+  border-radius: 100%;
+}
+
+.go-top:hover {
+  background-color: #181c3f;
+}
+.go-top i {
+  color: rgb(238, 81, 173);
+  position: absolute;
+  top: 16px;
+  right: 20px;
+}
+
+/* go-top | END */
