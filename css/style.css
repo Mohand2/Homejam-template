@@ -142,8 +142,6 @@ a {
   height: 550px;
 }
 
-
-
 #shows .container h2 {
   float: left;
   text-transform: capitalize;
@@ -151,7 +149,6 @@ a {
   font-size: 30px;
   padding-bottom: 10px;
   margin-bottom: 40px;
-  
 }
 
 #shows .container a.view-all {
@@ -159,21 +156,22 @@ a {
   text-transform: capitalize;
   font-weight: bold;
   color: goldenrod;
-  padding-bottom: 50px;
 }
 
 #shows .container .show-article {
   float: left;
-  width: 22.8%;
+  width: 23.1%;
+  height: 400px;
   margin: 0 10px;
   border-right: 10px solid #252d86;
   border-top: 10px solid #252d86;
   border-radius: 8px;
+  background-color: #0f1129;
 }
 
 #shows .container .show-article img {
-  width: 240px;
-  height: 250px;
+  width: 245px;
+  height: 230px;
   border-radius: 8px 8px 0 0;
 }
 
@@ -211,3 +209,67 @@ a {
 }
 
 /* section-2 | END */
+
+/* section-3 | START */
+
+#reviews {
+  height: 400px;
+}
+
+#reviews .container h2 {
+  float: left;
+  text-transform: capitalize;
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+#reviews .container .browse i {
+  margin-top: 2px;
+}
+
+#reviews .container .browse i,
+#reviews .container .browse p {
+  float: right;
+  padding: 0px 10px;
+  color: rgba(255, 255, 255, 0.377);
+}
+
+#reviews .container .review-box {
+  float: left;
+  border-top: 10px solid #2882bec0;
+  border-right: 10px solid #2882bec0;
+  border-radius: 15px;
+  width: 30%;
+  margin: 1.6%;
+}
+
+#reviews .container .review-box .bg {
+  border: 2px solid goldenrod;
+  border-radius: 10px;
+  padding: 30px 20px;
+}
+#reviews .container .review-box img {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin: 15px 20px 20px 0;
+  border-radius: 100%;
+}
+
+#reviews .container .review-box h3 {
+  padding: 20px 0 10px 0;
+  text-transform: capitalize;
+  font-family: "Libre Baskerville", serif;
+  font-size: 15px;
+}
+#reviews .container .review-box p.address {
+  font-size: 11px;
+  font-weight: bold;
+  color: goldenrod;
+}
+#reviews .container .review-box p {
+  font-weight: 200;
+  font-size: 17px;
+}
+
+/* section-3 | END */
