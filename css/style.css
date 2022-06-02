@@ -4,7 +4,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Nunito Sans", sans-serif;
-  background-color: #0a0b1a;
 }
 
 a {
@@ -39,6 +38,9 @@ a {
   max-width: 1100px;
   margin: auto;
   overflow: auto;
+}
+.bg-color {
+  background-color: #0a0b1a;
 }
 
 /* Utilities | END */
@@ -99,14 +101,13 @@ a {
 
 #main-header .container p {
   font-size: 25px;
-  color: rgb(221, 218, 218);
+  color: rgb(214, 213, 213);
 }
 /* HEADER | END */
 
 /* SECTION-1 | START */
 
 #info {
-  background-color: #0a0b1a;
   height: 400px;
   overflow: auto;
 }
@@ -135,4 +136,78 @@ a {
 }
 /* SECTION-1 | END */
 
+/* section-2 | START */
 
+#shows {
+  height: 550px;
+}
+
+
+
+#shows .container h2 {
+  float: left;
+  text-transform: capitalize;
+  font-family: "Libre Baskerville", serif;
+  font-size: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+  
+}
+
+#shows .container a.view-all {
+  float: right;
+  text-transform: capitalize;
+  font-weight: bold;
+  color: goldenrod;
+  padding-bottom: 50px;
+}
+
+#shows .container .show-article {
+  float: left;
+  width: 22.8%;
+  margin: 0 10px;
+  border-right: 10px solid #252d86;
+  border-top: 10px solid #252d86;
+  border-radius: 8px;
+}
+
+#shows .container .show-article img {
+  width: 240px;
+  height: 250px;
+  border-radius: 8px 8px 0 0;
+}
+
+#shows .container .show-article p {
+  float: left;
+  color: #0a0b1a;
+  text-transform: capitalize;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 2px 10px;
+  margin: 20px 20px 0px 20px;
+  background-color: goldenrod;
+}
+#shows .container .show-article h3 {
+  padding: 10px 0 20px 20px;
+  text-transform: capitalize;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 200;
+}
+
+#shows .container .show-article a {
+  color: #3443ee;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 20px;
+}
+#shows .container .show-article .fa-arrow-right-long {
+  padding: 15px 10px;
+  color: #3443ee;
+}
+#shows .container .show-article .fa-bookmark {
+  float: right;
+  padding: 20px 20px 20px 0;
+  color: rgb(238, 81, 173);
+}
+
+/* section-2 | END */
