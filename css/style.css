@@ -273,3 +273,11 @@ a {
 }
 
 /* section-3 | END */
+
+/* footer | START */
+#footer{
+background-color: #0f1129;
+text-align: center;
+padding: 20px;
+}
+/* footer | END */
