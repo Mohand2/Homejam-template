@@ -12,4 +12,5 @@ This template contains 4 sections:
 - Shows
 - Reviews
 
-Live demo: https://mohand2.github.io/Homejam-template
+Live demo: https://mohand2.github.io/Homejam-template <br/>
+Personal Projects Gallery: https://github.com/Mohand2/personal-projects
