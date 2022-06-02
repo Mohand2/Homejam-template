@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Nunito Sans", sans-serif;
+  background-color: #0a0b1a;
 }
 
 a {
@@ -82,6 +83,11 @@ a {
   padding: 30px 15px;
 }
 
+#main-header .container .navbar ul li a:hover,
+.fa-lock:hover {
+  color: rgb(236, 99, 179);
+}
+
 #main-header .container .about {
   padding-top: 20%;
 }
@@ -124,5 +130,9 @@ a {
 #info .container p {
   padding-top: 10px;
 }
-
+.fa-heart {
+  color: #252d86;
+}
 /* SECTION-1 | END */
+
+
