@@ -8,4 +8,4 @@ This template contains 4 sections:
 - Shows
 - Reviews
 
-Live demo:
+Live demo: https://mohand2.github.io/Homejam-template
