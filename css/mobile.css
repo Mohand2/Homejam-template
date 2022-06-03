@@ -37,3 +37,25 @@
 }
 
 /* header | END */
+
+/* section-1 | START */
+#info .container .box {
+  display: block;
+  text-align: center;
+  width: 50vw;
+  margin: 5vh auto;
+  padding: 20vw 5vw;
+  border: 1px solid rgba(121, 121, 121, 0.281);
+  border-radius: 100%;
+}
+
+#info .container h2{
+    font-size: 1.8rem;
+}
+#info .container p{
+font-size: 1rem;}
+#info .container i {
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+}
+/* section-1 | END */
