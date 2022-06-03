@@ -160,6 +160,7 @@ a {
   border-top: 10px solid #252d86;
   border-radius: 8px;
   background-color: #0f1129;
+  margin-bottom: 50px;
 }
 
 #shows .container .show-article img {
@@ -204,8 +205,6 @@ a {
 /* section-2 | END */
 
 /* section-3 | START */
-
-
 
 #reviews .container h2 {
   float: left;
@@ -261,7 +260,7 @@ a {
 #reviews .container .review-box p {
   font-weight: 200;
   font-size: 17px;
-  color: rgb(226, 226, 226);
+  color: rgb(182, 182, 182);
 }
 
 /* section-3 | END */
