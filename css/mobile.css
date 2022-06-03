@@ -9,7 +9,6 @@
 #main-header .container .navbar ul,
 #main-header .container .navbar ul li {
   float: none;
-  display: block;
   text-align: center;
   border-bottom: 1px solid rgba(236, 99, 179, 0.13);
 }
@@ -49,13 +48,52 @@
   border-radius: 100%;
 }
 
-#info .container h2{
-    font-size: 1.8rem;
+#info .container h2 {
+  font-size: 1.8rem;
 }
-#info .container p{
-font-size: 1rem;}
+#info .container p {
+  font-size: 1rem;
+}
 #info .container i {
   font-size: 1.8rem;
   padding-bottom: 1rem;
 }
 /* section-1 | END */
+
+/* section-2 | START */
+#shows .container h2,
+#reviews .container h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0;
+}
+
+#shows .container .show-article {
+  float: none;
+  width: 75%;
+  margin: 3rem auto;
+}
+
+#shows .container .show-article img {
+  width: 100%;
+}
+
+/* section-2 | END */
+
+/* section-3 | START */
+
+#reviews .container .review-box{
+    float: none;
+    width: 75%;
+    margin: 2rem auto;
+}
+
+/* section-3 | END */
+
+
+/* footer | START */
+#footer p{
+    font-size: 0.8em;
+}
+
+/* footer | END */
